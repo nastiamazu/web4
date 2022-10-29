@@ -1,0 +1,153 @@
+body {
+    background: rgb(255, 230, 235);
+    font-style:initial;
+    text-align:  center;
+    
+}
+
+a{
+  color:#ffffff;
+  text-decoration: none;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #cea3ff;
+  color: #ffffff;
+  font-family: 'Times New Roman';
+}
+.header_section{
+  display: flex;
+  align-items: center;
+}
+.header_item{
+  padding: 10px 15px;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.header_item:hover{
+  background-color: rgb(255, 196, 254);
+  border-radius: 4px;
+}
+.headerlogo{
+  font-weight: bold;
+}
+.headerButton{
+  cursor: pointer;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Helvetica', sans-serif;
+}
+
+.container {
+	width: 400;
+	height: 400;
+	margin: 400 auto;
+	overflow-x: scroll;
+	scroll-snap-type: x mandatory;
+  color: white;
+  background-color: oldlace;
+  display: flex;
+  align-items: center;
+}
+
+.child {
+  margin-left: 0.5rem;
+	height: 90%;
+	scroll-snap-align: start;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.child:nth-child(1n) {
+	background-color: rgb(255, 222, 222);
+	flex: 0 0 80%;
+}
+
+.child:nth-child(2n) {
+	background-color: rgb(255, 222, 222);
+	flex: 0 0 60%;
+}
+
+.child:nth-child(3n) {
+	background-color: rgb(255, 222, 222);
+	flex: 0 0 40%;
+}
+
+.child:nth-child(4n) {
+	background-color: rgb(255, 222, 222);
+	flex: 0 0 50%;
+}
+
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+
